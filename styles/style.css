@@ -1,0 +1,30 @@
+.wel{
+	color: red;
+}
+.app {
+	border: dashed 1px grey;
+}
+.no{
+	color: grey;
+}
+table{
+	table-layout: fixed
+}
+.sessionTable{
+	
+	border: 1px solid black;
+	width: 500px;
+}
+
+.newRating{
+	border: 1px solid black;
+	text-align: left;
+}
+.value{
+	border: 1px solid black;
+	width: 100px;
+}
+.edit{
+	border: 1px solid black;
+	width: 50px;
+}

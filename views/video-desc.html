@@ -1,0 +1,14 @@
+<div class="container .text-center" data-ng-controller="VideoDescController">
+	<h4>Details: {{currentVideo.name}}</h4>
+    <iframe width="640" height="480" ng-src="{{youtubeURL}}">
+	</iframe>
+	
+	<hr>
+	name: {{currentVideo.name}}
+	city: {{currentVideo.city}} <br/>
+	country: {{currentVideo.country}} <br/>
+	street: {{currentVideo.street}} <br/>
+	location: {{currentVideo.location}} <br/>
+	youtubeId: {{currentVideo.youtubeId}} <br/>
+</div>
+
